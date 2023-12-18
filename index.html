@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./fav.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies Rating</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d911f27317.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar_container">
+          <img src="./logo.png" alt="logo" class="logo" />
+          <div>
+            <form>
+              <div class="search-container">
+                <input
+                  type="text"
+                  id="movie-name"
+                  placeholder="Search Imdb"
+                  value="Polar"
+                />
+                <button id="search-btn">
+                  <img
+                    width="18"
+                    height="18"
+                    src="https://img.icons8.com/ios/50/search--v1.png"
+                    alt="search--v1"
+                  />
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <div id="result"></div>
+    </section>
+    <script src="./app.js"></script>
+    <script src="./key.js"></script>
+  </body>
+</html>
